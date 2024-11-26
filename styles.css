@@ -16,6 +16,11 @@ header {
     align-items: center;
     z-index: 100;
 }
+.edu{
+    display: flex;
+    color: #e82a2a;
+    padding: 30px 100px
+}
 .logo {
     font-size: 2em;
     color: #555;
