@@ -1,1 +1,1 @@
-# portfolio website displaying my eduational qualifications, professional experiences and skills.
+# portfolio website introducing myself
