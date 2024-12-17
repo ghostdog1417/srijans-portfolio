@@ -1,40 +1,154 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Personal Portfolio</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>My Website</title>
 </head>
+
 <body>
-    <header>
-        <h2 class="logo"><span>S</span>D.</h2>
-        <nav class="navigation">
-            <a href="#">Home</a>
-            <a href="#">Blog</a>
-            <a href="#">Contact</a>
-        </nav>
-        <a href="#" class="btn-talk">Let's Talk</a>
-    </header>
-    <section class="home">
-        <div class="content">
-            <h2>Hi, I'm <span>Srijan Dwivedi</span></h2>
-            <h4>Frontend Developer</h4>
-            <p>I am a first-year Computer Science student from Gorakhpur, Uttar Pradesh, with a keen interest in developement and artificial intelligence.</p>
-            <div class="btn-group">
-                <a href="#">Hire Me</a>
-                <a href="https://github.com/ghostdog1417">See Projects</a>
-            </div>
-            <div class="social-icons">
-                <a href="https://www.linkedin.com/in/srijan-dwivedi-b38bb2318"><i class="fa-brands fa-linkedin-in"></i></a>
-                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
-                <a href="#"><i class="fa-brands fa-twitter"></i></a>
-            </div>
+  <!-- Header -->
+  <section id="header">
+    <div class="header container">
+      <div class="nav-bar">
+        <div class="brand">
+          <a href="#hero">
+            <h1><span>S</span>rijan <span>D</span>wivedi</h1>
+          </a>
         </div>
-    </section>
-    <div>
+        <div class="nav-list">
+          <div class="hamburger">
+            <div class="bar"></div>
+          </div>
+          <ul>
+            <li><a href="#hero" data-after="Home">Home</a></li>   
+            <li><a href="#projects" data-after="Projects">Projects</a></li>
+            <li><a href="#about" data-after="About">About</a></li>
+            <li><a href="#contact" data-after="Contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
     </div>
+  </section>
+  <!-- End Header -->
+
+
+  <!-- Hero Section  -->
+  <section id="hero">
+    <div class="hero container">
+      <div>
+        <h1>Hello, <span></span></h1>
+        <h1>My Name is <span></span></h1>
+        <h1>Srijan <span></span></h1>
+        <a href="#projects" type="button" class="cta">Portfolio</a>
+      </div>
+    </div>
+  </section>
+  <!-- End Hero Section  -->
+
+  <!-- Projects Section -->
+  <section id="projects">
+    <div class="projects container">
+      <div class="projects-header">
+        <h1 class="section-title">Recent <span>Projects</span></h1>
+      </div>
+      <div class="all-projects">
+        <div class="project-item">
+          <div class="project-info">
+            <h1>Project 1</h1>
+            <h2>Netflix UI Clone</h2>
+            <p>Developed a fully responsive Netflix-style frontend using HTML, CSS, JavaScript, and Bootstrap. Solo project with working navigation and content display.</p>
+          </div>
+          <div class="project-img">
+            <img src="./img/img-1.png" alt="img">
+          </div>
+        </div>
+        <div class="project-item">
+          <div class="project-info">
+            <h1>Project 2</h1>
+            <h2>Piezo Energy Harvester</h2>
+            <p>Converted kinetic energy from running shoes into electrical energy using piezoelectric sensors. Successfully charged a phone from 0% to 100% in 2 hours.</p>
+          </div>
+          <div class="project-img">
+            <img src="./img/img-1.png" alt="img">
+          </div>
+        </div>
+      
+      </div>
+    </div>
+  </section>
+  <!-- End Projects Section -->
+
+  <!-- About Section -->
+  <section id="about">
+    <div class="about container">
+      <div class="col-left">
+        <div class="about-img">
+          <img src="./img/img-2.png" alt="img">
+        </div>
+      </div>
+      <div class="col-right">
+        <h1 class="section-title">About <span>me</span></h1>
+        <h2>Front End Developer</h2>
+        <p>Hi, I am Srijan Dwivedi, a passionate Front-End Developer with a strong foundation in web development and design. I specialize in crafting responsive, interactive, and user-friendly interfaces that enhance user experiences. Skilled in HTML, CSS, JavaScript, and modern libraries like React or frameworks such as Bootstrap, I enjoy building intuitive and efficient web applications.
+        My experience includes working on multiple projects that blend creativity and functionality. With a keen eye for design and a commitment to clean, maintainable code, I bring ideas to life on the web.  
+        I am also enthusiastic about continuous learning, staying updated with the latest technologies, and collaborating with teams to deliver impactful solutions.
+          </p>
+        <a href="#" class="cta">Download Resume</a>
+      </div>
+    </div>
+  </section>
+  <!-- End About Section -->
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <div class="contact container">
+      <div>
+        <h1 class="section-title">Contact <span>info</span></h1>
+      </div>
+      <div class="contact-items">
+        <div class="contact-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/phone.png" /></div>
+          <div class="contact-info">
+            <h1>Phone</h1>
+            <h2>+91 63926 89191</h2>
+            <h2>+91 80098 54002</h2>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/new-post.png" /></div>
+          <div class="contact-info">
+            <h1>Email</h1>
+            <h2>srijan.17.dw@gmail.com</h2>
+            <h2>srijan.2428cse1829@gmail.com</h2>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/map-marker.png" /></div>
+          <div class="contact-info">
+            <h1>Address</h1>
+            <h2>KIET GROUP OF INSTITUTIONS, GHAZIABAD - 201206</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Contact Section -->
+
+  <!-- Footer -->
+  <section id="footer">
+    <div class="footer container">
+      <div class="brand">
+        <h1><span>S</span>rijan <span>D</span>wivedi</h1>
+      </div>
+      <h2>Your Complete Web Solution</h2>
+      <p>Copyright © 2027. All rights reserved</p>
+    </div>
+  </section>
+  <!-- End Footer -->
+  <script src="./app.js"></script>
 </body>
+
 </html>
